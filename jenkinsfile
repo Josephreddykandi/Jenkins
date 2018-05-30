@@ -1,0 +1,11 @@
+node {
+    
+    stage('checkou'){
+     
+    git 'https://github.com/Josephreddykandi/Jenkins.git'
+        
+    }
+    
+    
+   echo 'Hello World'
+}
